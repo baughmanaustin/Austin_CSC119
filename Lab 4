@@ -1,0 +1,36 @@
+print('Welcome to Binary-Decimal Converter')
+binary_number = input('Please enter an 8 digit binary number: ')
+
+binary_number_list = list(binary_number)
+
+print(binary_number)
+print(binary_number_list)
+
+binary_length = len(binary_number_list)
+
+if(binary_length > 8):
+    print('Please do not input a number longer than 8 bits')
+    else:
+        for bit in binary_number_list:
+            if(int(bit) > 1 or int(bit) < 0)
+            print('Invalid Binary Number, only use 0's and 1's')
+
+power = binary_length - 1
+index = 0
+total = 0
+
+while(power >= 0):
+    total += (int(binary_list[index]) * (2**(power)))
+    power -= 1
+print(total)
+ 
+
+
+
+
+
+
+
+
+
+
